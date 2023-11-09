@@ -1,0 +1,48 @@
+hmtl{
+    font-size: 10px;
+}
+
+body{
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo h1{
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+.menu li a{
+    padding: 10px 5px;
+    transition: 0.3s  ease-in-out;
+    margin-left: 7px;
+}
+
+.menu li a:hover{
+    background-color:#5BC241;
+}
+
+.menu li a.register{
+    background-color:#5BC241;
+    border-radius: 10px;
+    color: white;
+    margin-left: 10px;
+    padding: 10px 20px;
+}
